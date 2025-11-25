@@ -243,7 +243,7 @@ export default function ProductDetail() {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); /* Mobile default */
-  gap: 12px;
+  gap: 8px;
   position: relative;
   z-index: 20;
 }
@@ -264,6 +264,13 @@ export default function ProductDetail() {
   .thumb-img {
     height: 100%;
     object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thumb-btn {
+    height: 90px !important;
+    aspect-ratio: unset !important;
   }
 }
 
