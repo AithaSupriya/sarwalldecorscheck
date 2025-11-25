@@ -257,7 +257,7 @@ export default function ProductDetail() {
 
 @media (min-width: 768px) {
   .thumb-btn {
-    height: 90px !important;
+    height: 180px !important;
     aspect-ratio: unset !important;
   }
 
